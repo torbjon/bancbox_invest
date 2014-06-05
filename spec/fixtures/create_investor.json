@@ -1,0 +1,38 @@
+{
+    "request_id": 717911106576,
+    "id": 296116518627,
+    "status": "ACTIVE",
+    "cip_status": "IGNORED",
+    "first_name": "Test",
+    "last_name": "Test",
+    "email": "admin@crowdfund.com",
+    "phone": "123",
+    "dob": "1986-05-22",
+    "ssn": "123-45-6789",
+    "funds": 0.0,
+    "pending_balance": 0.0,
+    "address": {
+        "address_1": "test",
+        "address_2": "3232",
+        "city": "test",
+        "state": "NY",
+        "zip": "11211"
+    },
+    "type": "STANDARD",
+    "audit_info": {
+        "created_on": "2014-05-26",
+        "created_by": "test",
+        "modified_on": "2014-05-26",
+        "modified_by": "test"
+    },
+    "account_info": {
+        "bank_name": "Four Oaks Bank \u0026 Trust Company",
+        "account_number": "542745119723",
+        "account_routing_number": "053112505",
+        "account_type": "CHECKING",
+        "account_holder_name": "Test Test"
+    },
+    "linked_external_accounts": [],
+    "internal": "0",
+    "international": "0"
+}
