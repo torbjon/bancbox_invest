@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'bancbox_invest'
-  s.version     = '0.0.1'
-  s.date        = '2014-05-04'
+  s.version     = '1.0.0'
+  s.date        = '2014-06-10'
   s.summary     = 'Bancbox Invest'
   s.description = 'Bancbox Invest ruby api wrapper'
   s.authors     = ['Maksim Berjoza']
