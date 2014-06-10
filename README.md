@@ -1,7 +1,7 @@
 ## Exaple
     require 'bancbox_invest'
 
-    Bancbox = Bancbox.new do |config|
+    Bancbox = BancboxInvest.new do |config|
       config.bancbox_api_key    = 'API_KEY'
       config.bancbox_api_secret = 'API_SECRET'
       config.bancbox_api_url    = 'API_URL'

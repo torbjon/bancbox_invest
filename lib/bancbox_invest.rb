@@ -1,11 +1,11 @@
 require 'httparty'
 require 'active_support/core_ext'
 
-class Bancbox
+class BancboxInvest
   
   attr_accessor :bancbox_api_key, :bancbox_api_secret, :bancbox_api_url
 
-  BANCBOX_METHODS = %w[create_investor submit_agreement verify_identity create_issuer open_escrow fund_account fund_escrow
+  METHODS = %w[create_investor submit_agreement verify_identity create_issuer open_escrow fund_account fund_escrow
     cge_investor_contr cancel_escrow close_escrow get_escrow_details get_escrow_list get_activity_details get_investor_list
     get_investor get_issuer_list get_issuer_details disburse_escrow disburse_escrow get_investment_ledger update_investment_ledger
     freeze_investment_ledger create_proceeds_schedules get_proceeds_schedules cancel_proceeds_schedules withdraw_funds
@@ -32,7 +32,7 @@ class Bancbox
     HTTParty.post(bancbox_api_url+url, query: options)
   end
 
-  BANCBOX_METHODS.each do |action|
+  METHODS.each do |action|
     define_method(action) do |argument|
       @options.merge!(argument)
       post("/crowd/v0/cfp/#{action.camelize(:lower)}", @options)

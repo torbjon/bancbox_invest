@@ -23,7 +23,7 @@ def with_fixture(file)
 end
 
 def bancbox_client(key, secret, url)
-  Bancbox.new do |config|
+  BancboxInvest.new do |config|
     config.bancbox_api_key    = key
     config.bancbox_api_secret = secret
     config.bancbox_api_url    = url
