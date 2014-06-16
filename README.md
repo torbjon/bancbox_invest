@@ -16,7 +16,7 @@
 * submit_agreement [https://invest.bancbox.com/apis_submit_agreement.html](https://invest.bancbox.com/apis_submit_agreement.html)
 * verify_identity [https://invest.bancbox.com/apis_verify_identity.html](https://invest.bancbox.com/apis_verify_identity.html)
 * create_issuer [https://invest.bancbox.com/apis_create_issuer.html](https://invest.bancbox.com/apis_create_issuer.html)
-* open_escrow [https://invest.bancbox.com/apis_open_escrow.html](https://invest.bancbox.com/apis_open_escrow.html)
+* create_escrow_account [https://invest.bancbox.com/apis_open_escrow.html](https://invest.bancbox.com/apis_open_escrow.html)
 * fund_account [https://invest.bancbox.com/apis_fund_account.html](https://invest.bancbox.com/apis_fund_account.html)
 * fund_escrow [https://invest.bancbox.com/apis_fund_escrow.html](https://invest.bancbox.com/apis_fund_escrow.html)
 * cge_investor_contribution [https://invest.bancbox.com/apis_change_investor_contribution.html](https://invest.bancbox.com/apis_change_investor_contribution.html)
