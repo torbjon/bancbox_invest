@@ -26,7 +26,7 @@
 * get_escrow_list [https://invest.bancbox.com/apis_list_escrow.html](https://invest.bancbox.com/apis_list_escrow.html)
 * get_activity_details [https://invest.bancbox.com/apis_get_escrow_activity.html](https://invest.bancbox.com/apis_get_escrow_activity.html)
 * get_investor_list [https://invest.bancbox.com/apis_list_investor.html](https://invest.bancbox.com/apis_list_investor.html)
-* get_investor [https://invest.bancbox.com/apis_get_investor.html](https://invest.bancbox.com/apis_get_investor.html)
+* get_investor_details [https://invest.bancbox.com/apis_get_investor.html](https://invest.bancbox.com/apis_get_investor.html)
 * get_issuer_list [https://invest.bancbox.com/apis_list_issuer.html](https://invest.bancbox.com/apis_list_issuer.html)
 * get_issuer_details [https://invest.bancbox.com/apis_get_issuer.html](https://invest.bancbox.com/apis_get_issuer.html)
 * disburse_escrow  [https://invest.bancbox.com/apis_disburse_escrow.html](https://invest.bancbox.com/apis_disburse_escrow.html)
